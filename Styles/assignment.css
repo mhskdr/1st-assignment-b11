@@ -1,0 +1,73 @@
+/* page font */
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Nav Styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 31px 160px;
+  color: #000000;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 32px;
+}
+/* button styles */
+button:hover{
+    cursor: pointer;
+    background-color: #ff0000;
+}
+.btn-nav{
+    color: #006A50;
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    background-color: white;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    padding: 15px 30px;
+
+ }   
+.btn-primary{
+    color: white;
+    background-color: #006A50;
+    border: none;
+    border-radius: 8px;
+    padding: 17px 34px;
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+}
+/* banner styles */
+.banner{
+    background-color: #C6E4D6;
+    margin: 20px 160px 80px;
+    padding: 60px 80px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 24px;
+}
+.banner-content{
+    max-width: 622px;
+}
+.banner-title{
+    color: #0e0e0e;
+    font-weight: 500;
+    font-size: 24px;
+    opacity: 0.5;
+}
+.banner-focus{
+    font-weight: bold;
+    font-size: 56px;
+    color: black;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.banner-profile{
+    width: 474px;
+    height: 400px;
+}
