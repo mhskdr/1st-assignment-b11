@@ -230,6 +230,7 @@ position: relative;
 /* Donate */
 .donate{
     text-align: center;
+    margin-bottom: 40px;
 }
 .donate-head{
     font-size: 40px;
@@ -279,6 +280,24 @@ input[type="text"]{
     margin: 32px 0;
     border: 1px solid #ccc;
     border-radius: 2px;
+    text-align: center;
+}
+.news-L{
+    font-size: 40px;
+    font-weight: bold;
+}
+.news-letter{
+    padding: 15px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    margin-top: 25px;
+}
+input[type="email"]{
+    width: 60%;
+    padding: 12px 20px;
+    margin: 32px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
     text-align: center;
 }
 /* footer */
